@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{20CDC91F-4ACC-4FBD-B9AE-2EB2FF0A4187}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "todo", "cosmos-dotnet-core-todo-app-master\src\todo.csproj", "{3E21F385-1412-4D98-9756-DE382C00512C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C2F1955A-6E80-4061-B57B-D71B6FF20A61}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20CDC91F-4ACC-4FBD-B9AE-2EB2FF0A4187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CDC91F-4ACC-4FBD-B9AE-2EB2FF0A4187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CDC91F-4ACC-4FBD-B9AE-2EB2FF0A4187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CDC91F-4ACC-4FBD-B9AE-2EB2FF0A4187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E21F385-1412-4D98-9756-DE382C00512C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E21F385-1412-4D98-9756-DE382C00512C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E21F385-1412-4D98-9756-DE382C00512C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E21F385-1412-4D98-9756-DE382C00512C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7591170B-ECC5-4318-9F4A-01EEF9934A31}
+	EndGlobalSection
+EndGlobal
